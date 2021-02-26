@@ -1,0 +1,136 @@
+patch:
+  show_notifications_when: appropriate          # 状态通知，适当，也可设为全开（always）全关（never）
+  style/color_scheme: jelly                     # 选择要使用的皮肤方案名称
+  preset_color_schemes:                         # 下方放置所有自定义皮肤方案
+    red-festival:
+      name: 红火／red-festival
+      author: BIAsia <lzybiasia@gmail.com>
+      horizontal: true                          # 水平排列
+      inline_preedit: false                      # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 4                          # 候选条圆角
+      hilited_corner_radius: 1                  # 高亮圆角
+      border_height: 12                          # 窗口边界高度，大于圆角半径才生效
+      border_width: 12                           # 窗口边界宽度，大于圆角半径才生效
+      border_color_width: 8
+      font_face: "江城律动黑"                   # 候选词字体
+      font_point: 16                            # 候选字词大小
+      label_font_point: 14                      # 候选编号大小
+
+      text_color: 0x0B0BCB                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0x4651FB                      # 候选条背景色
+      label_color: 0x0B0BCB                     # 预选栏编号颜色
+      border_color: 0x4651FB                      # 边框色
+      candidate_text_color: 0x000000            # 预选项文字颜色
+      hilited_text_color: 0x3AEBFF              # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0x4651FB              # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0x3AEBFF    # 第一候选项文字颜色
+      hilited_candidate_back_color: 0x4651FB    # 第一候选项背景背景色
+      hilited_candidate_label_color: 0x0B0BCB   # 第一候选项编号颜色
+      comment_text_color: 0x0B0BCB              # 拼音等提示文字颜色
+    jelly:                                      # 方案命名，不能有空格
+      name: 果冻／jelly
+      author: BIAsia <lzybiasia@gmail.com>
+      horizontal: true                          # 水平排列
+      inline_preedit: true                      # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 12                          # 候选条圆角
+      hilited_corner_radius: 28                  # 高亮圆角
+      border_height: 0                          # 窗口边界高度，大于圆角半径才生效
+      border_width: 0                           # 窗口边界宽度，大于圆角半径才生效
+      border_color_width: 0
+      #font_face: "江城律动黑"                   # 候选词字体
+      font_point: 16                            # 候选字词大小
+      label_font_point: 14                      # 候选编号大小
+
+      text_color: 0xF05369                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0xFFFFFF                      # 候选条背景色
+      label_color: 0xCCCCCC                     # 预选栏编号颜色
+      border_color: 0xffffff                      # 边框色
+      candidate_text_color: 0xF05369            # 预选项文字颜色
+      hilited_text_color: 0x000000              # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0xffffff              # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0x000000    # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xf2f2f2    # 第一候选项背景背景色
+      hilited_candidate_label_color: 0x000000   # 第一候选项编号颜色
+      comment_text_color: 0xF05369              # 拼音等提示文字颜色
+    grape-news:
+      name: 葡记／grape-news
+      author: BIAsia <lzybiasia@gmail.com>
+      horizontal: true                          # 水平排列
+      inline_preedit: true                      # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 6                          # 候选条圆角
+      hilited_corner_radius: 6                  # 高亮圆角
+      border_height: 8                          # 窗口边界高度，大于圆角半径才生效
+      border_width: 2                           # 窗口边界宽度，大于圆角半径才生效
+      border_color_width: 12
+      #font_face: "江城律动黑"                   # 候选词字体
+      font_point: 16                            # 候选字词大小
+      label_font_point: 14                      # 候选编号大小
+
+      text_color: 0xF05369                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0xFFFFFF                      # 候选条背景色
+      label_color: 0xCCCCCC                     # 预选栏编号颜色
+      border_color: 0x000000                      # 边框色
+      candidate_text_color: 0xF05369            # 预选项文字颜色
+      hilited_text_color: 0x000000              # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0xffffff              # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0x000000    # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xffffff    # 第一候选项背景背景色
+      hilited_candidate_label_color: 0x000000   # 第一候选项编号颜色
+      comment_text_color: 0xF05369              # 拼音等提示文字颜色
+
+    makaron:
+      name: 马卡龙／makaron
+      author: BIAsia <lzybiasia@gmail.com>
+      horizontal: true                          # 水平排列
+      inline_preedit: true                      # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 5                          # 候选条圆角
+      hilited_corner_radius: 5                  # 高亮圆角
+      border_height: 6                          # 窗口边界高度，大于圆角半径才生效
+      border_width: 6                           # 窗口边界宽度，大于圆角半径才生效
+      border_color_width: 0
+      #font_face: "PingFangSC"                   # 候选词字体
+      font_point: 16                            # 候选字词大小
+      label_font_point: 14                      # 候选编号大小
+
+      text_color: 0xc3cb42                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0xF5F5F5                      # 候选条背景色
+      label_color: 0xE1E1E1                     # 预选栏编号颜色
+      border_color: 0xF5F5F5                      # 边框色
+      candidate_text_color: 0xb294fa            # 预选项文字颜色
+      hilited_text_color: 0xc3cb42              # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0xffffff              # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0xffffff    # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xc3cb42    # 第一候选项背景背景色
+      hilited_candidate_label_color: 0xffffff   # 第一候选项编号颜色
+      comment_text_color: 0xddddde              # 拼音等提示文字颜色
+
+    makaron-night:
+      name: 马卡龙-夜／makaron-night
+      author: BIAsia <lzybiasia@gmail.com>
+      horizontal: true                          # 水平排列
+      inline_preedit: true                      # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 5                          # 候选条圆角
+      hilited_corner_radius: 5                  # 高亮圆角
+      border_height: 6                          # 窗口边界高度，大于圆角半径才生效
+      border_width: 6                           # 窗口边界宽度，大于圆角半径才生效
+      border_color_width: 0
+      #font_face: "PingFangSC"                   # 候选词字体
+      font_point: 16                            # 候选字词大小
+      label_font_point: 14                      # 候选编号大小
+
+      text_color: 0xBBC60C                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0x474747                      # 候选条背景色
+      label_color: 0x777777                     # 预选栏编号颜色
+      border_color: 0x474747                      # 边框色
+      candidate_text_color: 0xB4AAFF            # 预选项文字颜色
+      hilited_text_color: 0xBBC60C              # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0xffffff              # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0xffffff    # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xBBC60C    # 第一候选项背景背景色
+      hilited_candidate_label_color: 0xffffff   # 第一候选项编号颜色
+      comment_text_color: 0xddddde              # 拼音等提示文字颜色

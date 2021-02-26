@@ -1,0 +1,5 @@
+# Rime custom settings
+# encoding: utf-8
+
+patch:                        # 下方内容将覆盖原文件的配置项
+  "menu/page_size": 5         # 预选项个数
